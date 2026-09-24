@@ -1,0 +1,64 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+} */
+
+.My Skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.box {
+    background-color: rgb(10, 101, 132);
+    text-align: center;
+    padding: 20px;
+
+}
+.box1 {
+    background-color:rgb(6, 127, 127);
+    text-align: center;
+    gap: 20px;
+    padding: 20px
+    
+    
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(4, 68, 41);
+    background-color: rgb(134, 76, 5);
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(4, 68, 41);
+    background-color: rgb(5, 135, 57)
+    
+}
+.box2 {
+    background-color:rgb(1, 97, 144);
+    text-align: center;
+    gap: 20px;
+    padding: 20px
+    
+    
+}
+.box3 {
+    background-color:rgb(4, 107, 44);
+    text-align: center;
+    gap: 20px;
+    padding: 20px
+    
+    
+}
+p { 
+    background-color: rgb(10, 208, 185);
+    text-align: center;
+
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

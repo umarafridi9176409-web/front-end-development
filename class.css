@@ -1,0 +1,16 @@
+h1{
+    color:rgb(255, 213, 0);
+    background-color:black ;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-shadow: 0cm;
+    text-rendering: optimizeLegibility;
+    text-decoration: dotted;
+
+}
+p{
+    background-color: black;
+    color:aliceblue
+    
+}
+

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:rgb(9, 253, 172)
+    
+}
+h2{
+    text-align: left;
+    background-color: antiquewhite;
+
+}
+
+p{
+    background-color:rgb(84, 84, 183)
+}
+
+button{
+    background-color: rgb(130, 130, 211);
+    text-align: center;
+    font-size: medium;
+    color:rgb(206, 19, 19);
+    
+
+}

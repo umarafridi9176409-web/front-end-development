@@ -1,0 +1,38 @@
+h1{
+    color:rgb(110, 193, 3);
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+}
+#main-title{
+    color: #1d4ed8;
+    font-size: center;
+    font-size: 45px;
+}
+.description{
+      color: #4b5563;
+      font-size: 20px;
+      text-align: center;
+
+}
+.important {
+  color: red;
+  font-weight: bold;
+}
+.skills p {
+  color: green;
+  font-size: 18px;
+}
+h2,
+button {
+  color: white;
+  background-color: #2563eb;
+}
+.skills p {
+  color: green;
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 18px;
+}
