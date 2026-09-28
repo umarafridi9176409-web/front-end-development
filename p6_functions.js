@@ -106,6 +106,8 @@
 // }
 // largestNumber();
 
+
+
 /* Parameters And Arguements */
 
 // function greet(name){
@@ -173,33 +175,64 @@
 // }
 // largestNumber();
 
-function add(num1, num2, operator){
+// function add(num1, num2, operator){
 
-    console.log(num1 + num2, operator);
-}
-add(10, 5);
+//     console.log(num1 + num2, operator);
+// }
+// add(10, 5);
 
-function sub(num1, num2, operator){
+// function sub(num1, num2, operator){
 
-    console.log(num1 - num2, operator);
-}
-sub(10, 5);
+//     console.log(num1 - num2, operator);
+// }
+// sub(10, 5);
 
-function mult(num1, num2, operator){
+// function mult(num1, num2, operator){
     
-    console.log(num1 * num2, operator)
+//     console.log(num1 * num2, operator)
 
-}
-mult(10, 5);
+// }
+// mult(10, 5);
 
-function div(nmu1, num2, operator){
+// function div(nmu1, num2, operator){
 
-    console.log(nmu1 / num2, operator);
-}
-div(10, 5);
+//     console.log(nmu1 / num2, operator);
+// }
+// div(10, 5);
 
-function rem(num1, num2, operator){
+// function rem(num1, num2, operator){
 
-    console.log(num1 % num2, operator);
-}
-rem(10, 5);
+//     console.log(num1 % num2, operator);
+// }
+// rem(10, 5);
+
+
+
+/* Function with Return Type */
+
+// function add(a, b){
+//     return a + b;
+// }
+
+// let result = add(4, 5);
+// console.log(result);
+
+// function sub(c, d){
+    
+//     return c - d;  
+
+// }
+// let result = sub(9, 4);
+// console.log(result);
+
+function mult(e, f){
+
+    return e * f;
+
+} 
+let result = mult(4, 5);
+console.log(result);
+
+
+
+
