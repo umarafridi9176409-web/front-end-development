@@ -225,13 +225,126 @@
 // let result = sub(9, 4);
 // console.log(result);
 
-function mult(e, f){
+// function mult(e, f){
 
-    return e * f;
+//     return e * f;
 
-} 
-let result = mult(4, 5);
+// } 
+// let result = mult(4, 5);
+// console.log(result);
+
+// function checkNumber(a){
+
+//     if(a % 2 === 0){
+//         return ("Even");
+//     }else{
+//         return ("Odd");
+//     }
+// }
+
+
+// let result = checkNumber(1);
+// console.log(result); 
+
+// function checkNumber(a){
+//     if (a % 2 === 0){
+//         return("Even");
+//     }else{
+//         return("Odd");
+//     }
+// }
+
+// let result = checkNumber(8100000);
+// console.log(result); 
+
+
+// function square(num){
+
+//     return num * num;
+
+// }
+// let result = square(8);
+// console.log(result);
+
+
+// function square(a){
+
+//     return a * a;
+// }
+// let result = square(4);
+// console.log(result);
+
+
+// function largestNumber(a,b){
+//     if (a > b){
+//         return ("A is Greater then B");
+//     }else{
+//         return ("B is Greater then A");
+//     }
+// }
+// let result = largestNumber(15, 16);
+// console.log(result);
+
+
+// function largestNumber(a, b, c){
+//     if(a > b && b > c){
+//         return ("A is Powerful number");
+//     }else{
+//         return ("A is dim");
+//     }
+
+// }
+// let result = largestNumber(10, 15, 33);
+// console.log(result);
+
+// function getGrade(A){
+   
+//     if(A >= 85){
+//     return ("Garde A");
+//    }else if (A >= 80){
+//     return ("Grade A-");
+//    }else if (A >= 75){
+//     return ("Grade B+");
+//    }else if (A >= 70){
+//     return ("Grade B");
+//    }else if (A >= 65){
+//     return ("Garde B-")
+//    }else if (A >= 60){
+//     return ("Grade C+");
+//    }else if (A >= 55){
+//     return ("Grade C");
+//    }else if (A >= 50){
+//     return ("Grade C-")
+//    }else{
+//     return ("Fail...!");
+//    }
+// }
+// let result = getGrade(90);
+// console.log(result);
+
+
+// function calculateArea(length, width){
+
+//     return length * width;
+// }
+// let result = calculateArea(6, 6);
+// console.log(result, "feet")
+
+
+function largestNumber(a, b, c){
+
+    if (a > b){
+        return ("A is greater");
+    }else if (b > c){
+        return ("B is greater");
+    }else{
+        return("C is greater")
+    } 
+}
+let result = largestNumber(50, 40, 50);
 console.log(result);
+
+
 
 
 
