@@ -331,21 +331,227 @@
 // console.log(result, "feet")
 
 
-function largestNumber(a, b, c){
+// function largestNumber(a, b, c){
 
-    if (a > b){
-        return ("A is greater");
-    }else if (b > c){
-        return ("B is greater");
-    }else{
-        return("C is greater")
-    } 
-}
-let result = largestNumber(50, 40, 50);
-console.log(result);
-
-
+//     if (a > b){
+//         return ("A is greater");
+//     }else if (b > c){
+//         return ("B is greater");
+//     }else{
+//         return("C is greater")
+//     } 
+// }
+// let result = largestNumber(50, 40, 50);
+// console.log(result);
 
 
 
+/* Function Expression */
 
+// const greet = function (){
+//     console.log("Hello Umar!")
+// }
+// greet ();
+
+// const number = function (){
+//     for (let i = 1; i <= 10; i++){
+//         console.log(i);
+//     }
+// }
+// number();
+
+// const num = function(){
+//     for(let i = 1; i <= 10; i++){
+//     if (i % 2 ===0){
+//         console.log(i)
+//     }
+//     }
+// }
+// num();
+
+// const namee = function(){
+//     for(let i = 0; i < 10; i++){
+//         console.log(i);
+//     }
+// }
+// namee();
+
+
+
+/* Arrow Function */
+
+// const add = (a, b) => {
+//     return (a + b);
+// };
+// console.log(add(10, 20));
+
+
+// const greet = () => {
+// return ("Hello, Umar...!")
+// };
+// console.log(greet());
+
+
+// const add = (a, b) => {
+
+//     return a + b;
+// };
+// console.log(add(10, 20));
+
+
+// const mult = (a, b) => {
+
+//     return a * b;
+
+// }
+// console.log(mult(10, 5));
+
+
+// const square = (a) => {
+//      return a * a;
+// }
+// console.log(square(6));
+
+// const checkNumber = (a) => {
+//     if(a % 2 === 0){
+//         return ("Even");
+//     }else{
+//         return ("Odd")
+//     }
+// }
+// console.log(checkNumber(1));
+
+
+/* Local and Global Variable */
+
+
+// let name = "Umar Afd";
+
+// function greet(){
+
+//     let Uni = ("CECOS University");
+//     console.log(name);
+//     console.log(Uni);
+
+// }
+// greet ();
+
+// function myInformation(name = "Umar Afd"){
+
+//     console.log("Hello " + name);
+// }
+// myInformation();
+
+
+/* More About Arrow Function */
+
+// const greet = () =>{
+
+//     return ("Umar Afd");
+// };
+// console.log(greet());
+
+// const add = (a, b) =>{
+
+//     return (a + b);
+// };
+// console.log(add(10, 20));
+
+
+// const mult = (c, d) => {
+
+//     return (c * d);
+// };
+// console.log(mult(4, 5));
+
+// const checkNumber = (a) => {
+
+//     if(a % 2 === 0){
+//         return("Even");
+//     }else{
+//         return("Odd")
+//     }
+// };
+// console.log(checkNumber(1));
+
+// const checkAge = (age) =>{
+//     if(age >= 18){
+//         return ("Adult");
+//     }else{
+//         return ("Not-Adult");
+//     }
+
+// };
+// console.log(checkAge(22));
+
+// const largest = (a, b) => {
+
+//     if (a >= b){
+//         return ("A is graeter");
+//     }else{
+//         return ("B is greater");
+//     }
+// };
+// console.log(largest(222, 23));
+
+// const calculateArea = (length, width) => {
+
+//     return (length * width);
+// };
+// console.log(calculateArea(5, 10));
+
+// const getGrade = (marks) => {
+  
+//     if (marks >= 80){
+//     return("Grade A");
+//    }else if (marks >= 70){
+//     return("Grade B");
+//    }else if (marks >= 60){
+//     return("Grade C");
+//    }else if (marks >= 50){
+//     return("Grade D");
+//    }else{
+//     return ("Fail...!")
+//    }
+// }; 
+// console.log(getGrade(81));
+
+// const calculator = (a, b, operator) => {
+//     if (operator === "+"){
+//         return a + b;
+//     }else if(operator === "-"){
+//         return a - b;
+//     }else if(operator === "*"){
+//         return a * b;
+//     }else if(operator === "/"){
+//         return a / b;
+//     }else{
+//         return ("Invaid...!");
+//     }
+// };
+// console.log(calculator(10 , 30, "/"));
+
+
+// const convertTemp = (cilcius) => {
+
+//    return f = (cilcius * 9/5 + 32) 
+// };
+// console.log(convertTemp(0));
+
+const greet = (name) => "Umar Afd"; 
+console.log(greet());
+
+const add = (a, b) => a + b;
+console.log(add(5, 6));
+
+const sub = (c, d) => c - d;
+console.log(sub(5, 3));
+
+const mult = (e, f) => e * f;
+console.log(mult(4, 5));
+
+const square = (number) => number * number;
+console.log(square(9));
+
+const checkNumber = (num) => num % 2 === 0 ? "Odd" : "Even";
+console.log(checkNumber(2));
