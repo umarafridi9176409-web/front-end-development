@@ -449,14 +449,93 @@
 
 // console.log(marks);
 
-let mark = [85, 57, 66, 83, 73, 74, 62, 90];
+// let mark = [85, 57, 66, 83, 73, 74, 62, 90];
 
-mark.sort((a, b) => a - b);
+// mark.sort((a, b) => a - b);
 
-console.log(mark);
+// console.log(mark);
+
+// let number = [10, 30, 50, 70, 80, 60, 40, 20];
+
+// number.sort();
+
+// console.log(number);
 
 
+/* For and forEach loop for Array */
 
+// let marks = [85, 57, 66, 83, 73, 74, 62, 90];
+
+// marks.sort((a,b ) => b - a);
+
+// console.log(marks.join (", 67 "));
+
+// let numbers = [10, 20, 30, 40];
+
+// numbers.forEach((number) => {
+//     console.log(number);
+// })
+
+// let fruites = ["Mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+
+// fruites.forEach((fruite) => {
+//     console.log(fruite);
+// })
+
+// let marks = [85, 57, 66, 83, 73, 74, 62, 90];
+
+// marks.forEach((mark) => {
+
+//     console.log(mark)
+// })
+
+// let numbers = [10, 20, 30, 40, 50];
+// for (let number of numbers ){
+//     console.log(number);
+
+// }
+
+// let fruites = ["Mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+// for (let allFruite of fruites){
+//     console.log(allFruite);
+// }
+
+// let marks = [85, 57, 66, 83, 73, 74, 62, 90];
+// for (let allMarks of marks){
+//     console.log(allMarks);
+
+// }
+
+/* Find and filter */
+
+// let numbers =[27, 19, 32, 44, 75, 81, 28];
+
+// let result = numbers.find((number) => number < 27);
+
+// console.log(result);
+
+// let goods = ["plastic", "glass", "iron", "wood", "paper"];
+// let result = goods.find((good) => good === "glass", "plastic");
+
+// console.log(result);
+
+// let marks = [85, 57, 66, 83, 73, 74, 62, 90];
+// let result =marks.find((mark) => mark < 73);
+
+// console.log(result);
+
+/* Find Index */
+
+let numbers = [27, 19, 32, 44, 75, 81, 28];
+
+let result = numbers.findIndex((number) => number < 44);
+
+console.log(result);
+
+let fruites = ["Mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+let result1 = fruites.findIndex((fruite) => fruite === "Banana");
+
+console.log(result1);
 
 
 
