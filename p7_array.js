@@ -219,14 +219,249 @@
 // }
 // console.log(largest);
 
-let num = [10, 20, 30, 10, 1110, 1, 2, 2,];
-let largest = num[0];
+// let num = [10, 20, 30, 10, 1110, 1, 2, 2,];
+// let largest = num[0];
 
-for(let i = 0; i < num.length; i++){
-    if(num[i] > largest){
-        largest = num[i];
+// for(let i = 0; i < num.length; i++){
+//     if(num[i] > largest){
+//         largest = num[i];
 
-    }
-}
-console.log(largest);
+//     }
+// }
+// console.log(largest);
+
+
+// let subject = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
+
+// for (let  i = 0; i < subject.length; i++){
+//     console.log(subject[i]);
+// }
+
+// let fruites = ["Apple", "Mango", "Banana"];
+// // fruites.push("Grapes");
+// // console.log(fruites);
+
+// fruites.pop("Banana");
+// console.log(fruites);
+
+// let number = ["20", "30", "40", "50", "60"];
+
+// number.unshift("10");
+// console.log(number);
+
+// let num =  ["10", "20", "30", "40", "50"];
+// num.shift("20");
+// console.log(num);
+
+// let fruites = ["Mango", "Banana"];
+
+// console.log(fruites.includes("Banana"));
+// console.log(fruites.indexOf("Banana"));
+
+
+// let name = ["Ahmad", "Adnan", "Hamza"];
+// name.push("Ali", "Umar");
+// console.log(name);
+
+// let num = [10, 20, 30, 40, 50];
+// console.log(num);
+// console.log(num[0]);
+// console.log(num[1]);
+// console.log(num[2]);
+// console.log(num[3]);
+// console.log(num[4]);
+
+// let num = [20, 30, 40,];
+// num.push(10);
+// console.log(num);
+
+// let fruites = ["Apple", "Mango", "Banana", "Grapes"];
+// fruites.pop("Grapes");
+// fruites.pop("Apple");
+// console.log(fruites);
+// fruites.push("Mangos");
+// fruites.push("Bananas");
+// fruites.push("Grapeses");
+// fruites.push("Peaches");
+// console.log(fruites);
+
+// let num = [1, 2, 3, 4, 5, 6];
+// num.unshift(0);
+// console.log(num)
+// num.shift(0);
+// console.log(num);
+
+// let num = [1, 2, 3, 4, 5, 6];
+// let sum = 0;
+
+// for (let i = 0; i < num.length; i++){
+//      sum = sum + num[i]
+// }
+// console.log(sum);
+
+// let num = [10, 20, 30, 40, 50];
+// let sum = 0;
+// for (let i = 0; i < num.length; i++){
+//     sum = sum + num[i]; 
+// }
+// console.log(sum);
+
+
+// let num = [10, 20, 30, 50, 40, 30, 20, 10];
+// let largest = num[0];
+// for(let i = 0; i < num.length; i++){
+//     if (num[i] > largest){
+//         largest = num[i]
+//     }
+// }
+// console.log(largest);
+
+/* splice and slice */
+
+// let fruites = ["Mango", "Apple", "Grapes"]
+// fruites.splice(1, 0, "Banana");
+// console.log(fruites);
+
+// let number = [10, 30, 40, 50];
+// number.splice(1, 0, 20);
+// console.log(number)
+
+// let std = ["Umar", "Ali", "Ihsan", "Hamza", "Adnan"];
+// std.splice(1, 0, "Imran");
+// console.log(std);
+
+// let fruite = ["Mango", "Apple", "Grapes", "Banana", "Orange", "Peach"];
+
+// let newFruites = fruite.slice(1, 4);
+
+// console.log(newFruites);
+// console.log(fruite);
+
+// let number =[10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+// let newNumber = number.slice(2, 5);
+
+// console.log(newNumber);
+// console.log(number);
+
+// let marks = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+// let newMarks = marks.slice(3, 7);
+
+// console.log(newMarks);
+// console.log(marks);
+
+/* Concat */
+
+// let fruites =["mango", "Apple", "Banana"];
+// let moreFruites = ["Grapes", "Orange", "Peach"];
+
+// let allFruites = fruites.concat(moreFruites);
+
+// console.log(allFruites);
+
+// let number = [10, 20, 30, 40, 50];
+// let moreNumber = [60, 70, 80, 90,100];
+// let allNumber = number.concat(moreNumber);
+
+// console.log(allNumber);
+
+// let marks = [1, 2, 3, 4, 5];
+// let moreMarks = [6, 7, 8, 9, 10];
+
+// let allMarks = marks.concat(moreMarks);
+
+// console.log(allMarks);
+
+
+/* JOIN */
+
+// let subjects = ["HTML", "CSS", "JAvaScript"];
+// let allSubjects = subjects.join("React.js", "Next.js", "Node.js");
+
+// console.log(allSubjects);
+
+
+// let number = ["Ten", "Twenty", "Thirty", "Forty", "Fifty"];
+// let allNumber = number.join("Sixty", "Seventy", "Eighty", "Ninety", "Hundred");
+
+// console.log(allNumber);
+
+// let words = ["Nam", "form", "play", "gam", "try"];
+// let allWords = words.join("ing, ");
+
+// console.log(allWords);
+
+// 
+// let zero = [0, 1, 2, 3, 4, 5, 6, 7, 8, 900];
+// let allZero = zero.join("00,  ");
+
+// console.log(allZero);
+
+// let fruites = ["mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+
+// console.log(fruites.join(", and  "))
+
+// let marks = [1, 9, 8, 7, 60,];
+
+// console.log(marks.join("0,  "));
+
+
+/* REVERSE */
+
+// let marks = [80, 70, 60, 50, 40, 30, 20, 10, 0];
+// marks.reverse();
+
+// console.log(marks);
+
+
+// let fruites = ["Mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+
+// fruites.reverse();
+
+// console.log(fruites);
+
+// let digitalNumber = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ];
+
+// digitalNumber.reverse();
+
+// console.log(digitalNumber);
+
+
+/* SORT */
+
+
+// let number = [20, 10, 30, 50, 40];
+
+// number.sort();
+
+// console.log(number);
+
+// let fruites = ["Mango", "Apple", "Banana", "Grapes", "Orange", "Peach"];
+
+// fruites.sort();
+
+// console.log(fruites);
+
+// let marks = [85, 57, 66, 83, 73, 74, 62, 90];
+
+// marks.sort((a, b) => b - a);
+
+// console.log(marks);
+
+let mark = [85, 57, 66, 83, 73, 74, 62, 90];
+
+mark.sort((a, b) => a - b);
+
+console.log(mark);
+
+
+
+
+
+
+
+
+
+
 
